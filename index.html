@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memento Mori</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h1>Memento Mori</h1>
+
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" max="9999-12-31"/>
+
+  <label for="gender">Gender:</label>
+  <select id="gender">
+    <option value="" disabled selected>Select</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+
+  <p id="result"></p>
+
+  <div id="calendar" class="calendar-grid"></div>
+
+  <footer>
+    Inspired by <a href="https://www.youtube.com/watch?v=UF8uR6Z6KLc" target="_blank">Steve Jobs</a>
+    & <a href="https://knosmos.github.io/existential-dread-calendar/" target="_blank">knosmos</a> ·
+    Tuned the life expectancy calculator according to <a href="https://www.ssa.gov/oact/STATS/table4c6.html" target="_blank">SSA data</a> ·
+  </footer>
+
+</body>
+</html>
